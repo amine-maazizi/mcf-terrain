@@ -1,41 +1,95 @@
-# Prerequisites
-*.d
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# C extensions
 *.so
-*.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.ENV/
+pip-wheel-metadata/
+pip-log.txt
 
-# Executables
-*.exe
-*.out
-*.app
+# PyInstaller
+#  Usually contains the build artifacts
+*.manifest
+*.spec
 
-# debug information files
-*.dwo
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pyright
+pyrightconfig.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# System Files
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# dotenv
+*.env
+*.env.*
+
+# Editor settings
+.idea/
+*.sublime-workspace
+*.sublime-project

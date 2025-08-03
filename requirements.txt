@@ -1,0 +1,6 @@
+trimesh
+pyglet<2
+scipy
+noise
+numpy
+pre-commit
